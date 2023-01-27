@@ -11,7 +11,7 @@ return x;
 function divideBalanceByAccounts(x, y) {
   x /= y;
   return x;
-}
+}CDATASection
 
 function getRestAfterDivision(x, y) {
   x %= y;
