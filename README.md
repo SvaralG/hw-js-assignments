@@ -48,6 +48,24 @@ ___he logical OR assignment operator `||=` assigns value to left operand only wh
 
 ___The logical nullish assignment operator `??=` assigns value to left operand only when it is nullish (`null` or `undefined`).___
 
+## Increment/decrement
+Increasing or decreasing a number by one is among the most common numerical operations.
+
+So, there are special operators for it:
+
+___Increment `++` increases a variable by 1___
+
+___Decrement `--` decreases a variable by 1:___
+
+The operators `++` and `--` can be placed either before or after a variable.
+
+When the operator goes after the variable, it is in “postfix form”: `counter++`.
+The “prefix form” is when the operator goes before the variable: `++counter`.
+Both of these statements do the same thing: increase `counter` by `1`.
+
+Is there any difference? Yes, but we can only see it if we use the returned value of `++/--`.
+
+Let’s clarify. As we know, all operators return a value. Increment/decrement is no exception. The prefix form returns the new value while the postfix form returns the old value (prior to increment/decrement).
 
 
 
